@@ -13,7 +13,7 @@
     border-radius: 10px;
     p{
         font-style: oblique;
-        font-size: 1.3em;
+        font-size: 1em;
         font-weight: bold;
     }
     @media (max-width: 1250px) {
@@ -28,4 +28,11 @@
 
 .iframe-wrapper {
   text-align: center;
+}
+
+.storyFooter{
+    color:white;
+    a{
+        color: $color-bg;
+    }
 }

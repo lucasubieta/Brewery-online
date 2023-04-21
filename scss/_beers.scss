@@ -15,6 +15,7 @@
         }
         h2{
             text-align: center;
+            font-size: 1.2rem;
         }
     }
     img{
@@ -23,7 +24,9 @@
     .bg-hpa{
         p{
             position: absolute;
-            text-shadow: 5px 5px 10px wheat;            
+            text-shadow: 3px 1px 4px black; 
+            z-index: 2;      
+            border-radius: 4px;
         }
     }
     @media (width < 767px) {
@@ -52,12 +55,12 @@
         margin-bottom: 20px;
     }
     h2{
-        font-size: 2.5rem;
+        font-size: 1.4rem;
         text-transform: uppercase;
         color:$color-bg;
     }
     p{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         line-height: 1.6;
         color: $color-bg;
     }
