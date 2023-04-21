@@ -214,10 +214,10 @@ nav div ul li:hover {
   font-size: 0.5em;
 }
 
-.container-fluid p {
+.container-fluid p:first-child {
   color: white;
 }
-.container-fluid p a {
+.container-fluid p:first-child a {
   text-decoration: underline;
   color: white;
 }

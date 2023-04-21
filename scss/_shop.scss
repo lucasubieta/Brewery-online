@@ -4,14 +4,13 @@
     }
 }
 
-.container-fluid{
-    p{
+.container-fluid p:first-child{
         color:white;
         a{
             text-decoration: underline;
             color: white;
         }
-    }
+
 }
 .btn:hover{
     background-color: rgba(0, 0, 0,0.5);
