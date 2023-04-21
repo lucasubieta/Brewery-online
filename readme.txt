@@ -1,4 +1,7 @@
 UTILIZACIONES (-ENTREGA FINAL-)
+ERROR404:
+-Se enlaza a botoneras en pagina "SHOP" y enlaces en el Footer.
+(En Github pages aparecia el error 404 de Github, imagino que por el nombre, asi que renombre mi pagia de "error404.html" a "error-404.html")
 
 SASS:
 -PARTIALS: Uno por pagina + los necesarios para organizar codigo.
