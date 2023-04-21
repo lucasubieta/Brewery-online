@@ -2,15 +2,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
-    width: 80vw;
-    margin: 0 auto;
     @media (max-width: 1250px) {
         grid-template-columns: 1fr;
     }
 }
 
 .grid-item {
-    padding: 20px;
+    padding: 10px;
     background-color: $color-bg; 
     border-radius: 10px;
     p{

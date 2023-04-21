@@ -9,6 +9,9 @@
         color: $color-bg;
         &:hover{
             filter: none;
+            img{
+                scale: 1.15;
+            }
         }
         h2{
             text-align: center;
@@ -16,6 +19,12 @@
     }
     img{
         width: 100%;
+    }
+    .bg-hpa{
+        p{
+            position: absolute;
+            text-shadow: 5px 5px 10px wheat;            
+        }
     }
     @media (width < 767px) {
         flex-direction: column;

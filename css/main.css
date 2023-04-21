@@ -36,6 +36,7 @@ header {
 
 * {
   font-family: "Roboto 500", sans-serif;
+  transition: 0.8s;
 }
 
 .label-h, .label-h2 {
@@ -56,6 +57,19 @@ body {
 .indexMain {
   max-width: 1640px;
 }
+.indexMain p {
+  color: #ffe4c4;
+  text-align: center;
+  font-size: 0.7rem;
+  z-index: 2;
+}
+.indexMain:hover img {
+  scale: 1.03;
+  border-radius: 10px;
+}
+.indexMain:hover p {
+  color: rgba(255, 255, 255, 0);
+}
 
 main div {
   width: 100%;
@@ -63,6 +77,7 @@ main div {
 main img {
   padding: 3px;
   overflow: hidden;
+  width: 80vw;
 }
 
 .colorsLine {
@@ -136,11 +151,18 @@ nav div ul li:hover {
 .beersContain div:hover {
   filter: none;
 }
+.beersContain div:hover img {
+  scale: 1.15;
+}
 .beersContain div h2 {
   text-align: center;
 }
 .beersContain img {
   width: 100%;
+}
+.beersContain .bg-hpa p {
+  position: absolute;
+  text-shadow: 5px 5px 10px wheat;
 }
 @media (width < 767px) {
   .beersContain {
@@ -202,8 +224,6 @@ nav div ul li:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
-  width: 80vw;
-  margin: 0 auto;
 }
 @media (max-width: 1250px) {
   .grid-container {
@@ -212,7 +232,7 @@ nav div ul li:hover {
 }
 
 .grid-item {
-  padding: 20px;
+  padding: 10px;
   background-color: #ffe4c4;
   border-radius: 10px;
 }
